@@ -1,7 +1,8 @@
+// src/App.js
 import React from 'react';
-import { View, Text, ScrollView, TextInput, StyleSheet, Button, FlatList } from 'react-native';
-import Category from './component/Category';
-import Task from './component/Task';
+import { Text, ScrollView, TextInput, StyleSheet, Button, FlatList } from 'react-native';
+import Category from './src\Components\Category.js';
+import Task from './src\Components\Task.js';
 
 const categories = ['Exercise', 'Study', 'Code', 'Cook', 'Read', 'Meditate', 'Work', 'Play'];
 const tasks = [
